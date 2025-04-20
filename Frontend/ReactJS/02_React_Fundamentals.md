@@ -1,4 +1,6 @@
-🚀## **Features of React**  
+# React Fundamentals
+
+##🚀 **Features of React**  
 
 React is a **powerful and flexible JavaScript library** for building dynamic user interfaces. It provides a range of features that make development **efficient, scalable, and maintainable**. Below are some of its key features:  
 
@@ -144,7 +146,7 @@ React is a **powerful, efficient, and flexible** library for building modern web
 
 
 
-🚀## **ES6 for React**  
+##🚀 **ES6 for React**  
 
 React heavily relies on **ES6 (ECMAScript 2015)** features to write clean and efficient code. Understanding ES6 is essential for working with modern React applications. Below are the key ES6 features used in React development:
 
@@ -409,7 +411,7 @@ ES6 provides powerful features that enhance **readability, efficiency, and maint
 ✅ `async/await` improves API calls  
 
 
-🚀## **Setting Up the React Development Environment**  
+##🚀 **Setting Up the React Development Environment**  
 
 To start developing with React, you need to set up your environment correctly. The key tools required are:  
 ✅ **Node.js** (JavaScript runtime)  
