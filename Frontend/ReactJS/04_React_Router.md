@@ -1,4 +1,6 @@
-**Introduction to React Router**
+# **React Router**
+
+## **Introduction to React Router**
 
 React Router is a standard library for routing in React applications, enabling the synchronization of the UI with the URL. It allows for the declarative definition of routes and supports dynamic routing, making it easier to manage navigation and rendering of components based on the URL.
 
@@ -11,7 +13,7 @@ To set up React Router in a React 18 project:
    ```bash
    npm install react-router-dom
    ```
-
+
 
 2. **Configure the Router**: Wrap your application with the `BrowserRouter` component to enable routing capabilities:
 
@@ -28,7 +30,7 @@ To set up React Router in a React 18 project:
      </BrowserRouter>
    );
    ```
-
+
 
 **Route Parameters and Query Strings**
 
@@ -49,7 +51,7 @@ React Router v6 provides hooks to work with route parameters and query strings:�
     );
   }
   ```
-
+
 
   In the `UserProfile` component, access the `id` parameter using the `useParams` hook:
 
@@ -63,7 +65,7 @@ React Router v6 provides hooks to work with route parameters and query strings:�
     return <div>User ID: {id}</div>;
   }
   ```
-
+
 
 - **Query Strings**: Manage query parameters using the `useSearchParams` hook:
 
@@ -87,7 +89,7 @@ React Router v6 provides hooks to work with route parameters and query strings:�
     );
   }
   ```
-
+
 
 **Nested Routes**
 
@@ -125,7 +127,7 @@ function App() {
   );
 }
 ```
-
+
 
 In this setup, navigating to `/dashboard/stats` renders the `Dashboard` component with the `Stats` component nested inside.
 
@@ -144,7 +146,7 @@ function ProtectedRoute({ isAuthenticated, children }) {
   return children;
 }
 ```
-
+
 
 Use this component to wrap protected routes:
 
@@ -167,7 +169,7 @@ function App() {
   );
 }
 ```
-
+
 
 **Redirects and Navigation**
 
@@ -187,7 +189,7 @@ function HomePage() {
   return <button onClick={goToAbout}>Go to About Page</button>;
 }
 ```
-
+
 
 For redirects within components, use the `Navigate` component:
 
